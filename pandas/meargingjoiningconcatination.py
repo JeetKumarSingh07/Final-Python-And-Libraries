@@ -36,3 +36,9 @@ print(df_salary)
 print("\n===== DEPARTMENT DATAFRAME =====")
 print(df_department)
 print(pd.merge(df_salary,df_department,on="Name"))
+print(pd.merge(df_salary,df_department,on="Name",how="inner"))
+
+
+
+#-------------CONCATENATION-----------------
+print("\n===== CONCATENATION =====")
