@@ -23,5 +23,4 @@ df['Episodes']=df['Title'].apply(extract_episodes)
 
 df['Episodes']=df['Episodes'].str.replace(" eps", "").astype(int)
 print(df['Episodes'])
-print(git add .
-))    
+
