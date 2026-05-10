@@ -25,3 +25,4 @@ df['Episodes']=df['Episodes'].str.replace(" eps", "").astype(int)
 print(df['Episodes'])
 print(df)
 
+sdf
