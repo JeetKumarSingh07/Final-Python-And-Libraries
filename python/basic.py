@@ -26,12 +26,29 @@
 
 
 
-a="harry"
-print(a[-4:-2])
-print(a.lower())
-print(a.upper())
-print(a.replace("h","H"))
-print(a.rstrip("y"))
-print(a.capitalize())
-b=" hii this is a multi line string for the find function"
-print(b.find("multi"))
+# a="harry"
+# print(a[-4:-2])
+# print(a.lower())
+# print(a.upper())
+# print(a.replace("h","H"))
+# print(a.rstrip("y"))
+# print(a.capitalize())
+# b=" hii this is a multi line string for the find function"
+# print(b.find("multi"))
+
+
+# <----Conditional Statements---->
+
+num=int(input("Enter a number: "))
+if num>0:
+    print("Number is positive")
+elif num==0:
+    print("Number is zero")
+elif num<0:
+    print("Number is negative")
+elif (num==10 and num<20):   
+    print("Number is between 10 and 20")
+elif (num==10 or num<20):
+    print("Number is between 10 and 20")    
+else:
+    print("Chill kro yaar")
