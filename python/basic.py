@@ -39,16 +39,29 @@
 
 # <----Conditional Statements---->
 
-num=int(input("Enter a number: "))
-if num>0:
-    print("Number is positive")
-elif num==0:
-    print("Number is zero")
-elif num<0:
-    print("Number is negative")
-elif (num==10 and num<20):   
-    print("Number is between 10 and 20")
-elif (num==10 or num<20):
-    print("Number is between 10 and 20")    
+# num=int(input("Enter a number: "))
+# if num>0:
+#     print("Number is positive")
+# elif num==0:
+#     print("Number is zero")
+# elif num<0:
+#     print("Number is negative")
+# elif (num==10 and num<20):   
+#     print("Number is between 10 and 20")
+# elif (num==10 or num<20):
+#     print("Number is between 10 and 20")    
+# else:
+#     print("Chill kro yaar")
+
+
+
+
+import time
+time=time.strftime("%H:%M:%S")
+if time>="00:00:00" and time<="11:59:59":
+    print("Good Morning")
+elif time>="12:00:00" and time<="15:59:59":
+    print("Good Afternoon")
 else:
-    print("Chill kro yaar")
+    print("Good Evening")
+    
