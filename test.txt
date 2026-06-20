@@ -1,4 +1,0 @@
-Hello, File!
-Second line
-Appended line
-Test commit for contribution graph check
