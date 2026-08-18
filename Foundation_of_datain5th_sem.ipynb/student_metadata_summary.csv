@@ -1,0 +1,8 @@
+Metric,Value
+Row count,100
+Column count,12
+Duplicate rows,0
+Average missingness across fields (%),0.0
+Potential primary keys,"Student ID, Student Name"
+Categorical fields,"Student ID, Student Name, Grade, Status"
+Numeric fields,"Maths, Science, English, History, Total Marks, Average Score, Percentage, Attendance"

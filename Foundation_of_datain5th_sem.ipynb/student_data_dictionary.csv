@@ -1,0 +1,13 @@
+Field,Inferred Data Type,Missing Count,Missing %,Distinct Values,Allowed Values / Range,Potential Primary Key
+Student ID,string,0,0.0,100,"STU001, STU002, STU003, STU004, STU005, STU006, STU007, STU008, STU009, STU010, STU011, STU012 ...",Yes
+Student Name,string,0,0.0,100,"Aakash, Aarav, Aarti, Aayan, Abhishek, Aditya, Ajay, Alia, Alok, Amit, Ananya, Anika ...",Yes
+Maths,integer,0,0.0,51,35 to 99,No
+Science,integer,0,0.0,49,35 to 97,No
+English,integer,0,0.0,53,36 to 99,No
+History,integer,0,0.0,50,35 to 99,No
+Total Marks,integer,0,0.0,73,171 to 356,No
+Average Score,float,0,0.0,73,42.75 to 89.0,No
+Percentage,float,0,0.0,73,42.75 to 89.0,No
+Grade,string,0,0.0,4,"A, B, C, D",No
+Attendance,integer,0,0.0,33,65 to 97,No
+Status,string,0,0.0,1,Pass,No
